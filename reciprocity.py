@@ -45,7 +45,7 @@ def get_stock():
 
 #gets initial shutter speed
 def get_shutter():
-    print("what is your suggested shutter speed? (1/30, 1/15, 1, 2, etc..")
+    print("what is your suggested shutter speed? (1/4, 1/2, 1, 2, etc..")
     shutter = float(input())
     return shutter
 
