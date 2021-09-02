@@ -1,3 +1,3 @@
-# reciprocity-calc
+# film reciprocity calculator
 
-small calculator that calculates a new shutter speed accounting for film's reciprocity factor.
+small app for film photographers that calculates a new shutter speed accounting for film's reciprocity factor.
