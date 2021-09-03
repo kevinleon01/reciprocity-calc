@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reciprocity Calc</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1> Reciprocity Calculator</h1>
+        <h3> Pick your stock and enter light-meter's shutter speed reading</h3>
+    </header>
+
+
+    <div class="form">
+        <br />
+        <br />
+        <label> Film Stock </label>
+        <br>
+        <input type="radio" id="film-stock" name="film-stock" value="portra400" /> Portra 400
+        <!-- <label for="portra400"> Portra 400</label> -->
+        <br>
+        <input type="radio" id="film-stock" name="film-stock" value="pancro400" /> Pancro400
+        <!-- <label for="portra400"> Pancro 400</label> -->
+        <br>
+        <input type="radio" id="film-stock" name="film-stock" value="hp5" />
+        <label for="hp5"> HP5</label>
+        <br>
+        <input type="radio" id="film-stock" name="film-stock" value="trix" />
+        <label for="trix"> Tri-X</label>
+        <br>
+        <input type="radio" id="film-stock" name="film-stock" value="cinestill800t" />
+        <label for="cinestill800t"> CineStill 800T</label>
+        <br>
+        <input type="radio" id="film-stock" name="film-stock" value="tmax400" />
+        <label for="tmax400"> T-Max 400</label>
+        <br>
+        <input type="radio" id="film-stock" name="film-stock" value="tmax100" />
+        <label for="tmax100"> T-Max 100</label>
+        <br>
+        <input type="radio" id="film-stock" name="film-stock" value="other" />
+        <label for="other"> Other</label>
+        <br>
+
+
+        <br />
+        <label for="shutter-speed">Shutter speed (seconds)</label>
+        <br>
+        <input type="text" id="shutter" name="shutter" placeholder="1/4, 1/2, 1, 2, etc.." />
+        <br />
+        <button id="calculate" type="button" onclick="calculateReciprocity()"> calculate </button>
+    </div>
+
+
+    <div class="new-time">
+        <p> </p>New Time: <span id="results"></span></p>
+    </div>
+
+    <!-- <footer> made by @donde_esta_mymind </footer> -->
+    <script src="script.js"></script>
+</body>
+
+</html>
