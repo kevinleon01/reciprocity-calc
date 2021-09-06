@@ -44,3 +44,11 @@ footer.end {
     float: left;
     padding-right: 12px;
 }
+
+.about {
+    width: 75%;
+}
+
+a:visited {
+    color:black;
+}
