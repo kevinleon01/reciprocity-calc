@@ -49,6 +49,10 @@ footer.end {
     width: 75%;
 }
 
+a {
+    color:black;
+}
+
 a:visited {
     color:black;
 }
